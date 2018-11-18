@@ -1,0 +1,271 @@
+doctype html
+html.no-js(lang="zxx")
+  head
+    // Mobile Specific Meta
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    // Favicon
+    link(rel="shortcut icon", href="img/favicon.png")
+    // Author Meta
+    meta(name="author", content="Parkyng")
+    // Meta Description
+    meta(name="description", content="")
+    // Meta Keyword
+    meta(name="keywords", content="")
+    // meta character set
+    meta(charset="UTF-8")
+    // Site Title
+    title Parkyng | Contact
+    |     
+    link(href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700", rel="stylesheet")
+    //
+      CSS
+      =============================================
+    link(rel="stylesheet", href="css/linearicons.css")
+    |     
+    link(rel="stylesheet", href="css/font-awesome.min.css")
+    |     
+    link(rel="stylesheet", href="css/bootstrap.css")
+    |     
+    link(rel="stylesheet", href="css/magnific-popup.css")
+    |     
+    link(rel="stylesheet", href="css/nice-select.css")
+    |     
+    link(rel="stylesheet", href="css/animate.min.css")
+    |     
+    link(rel="stylesheet", href="css/jquery-ui.css")
+    |     
+    link(rel="stylesheet", href="css/main.css")
+  body
+    header#header
+      .header-top
+      |         
+      .container.main-menu
+        .row.align-items-center.justify-content-between.d-flex
+          a(href="/")
+            img(src="img/logo.png", alt="", title="")
+          |                 
+          nav#nav-menu-container
+            ul.nav-menu
+              li.menu-active
+                a(href="/") Home
+              |                         
+              li
+                a(href="about") About
+              |                         
+              li
+                a(href="services") Services
+              |                         
+              li
+                a(href="reviews") Reviews
+              |                         
+              li
+                a(href="contact") Contact
+              |                         
+              li
+                a(href="login") Login
+              |                         
+              li.menu-has-children
+                a(href="") Sign Up
+                |                             
+                ul
+                  li
+                    a(href="car-signup") As Car Owner
+                  |                                 
+                  li
+                    a(href="parking-signup") As Parking Space Owner
+          // #nav-menu-container
+    // #header
+    // start banner Area
+    section#home.banner-area.relative.about-banner
+      .overlay.overlay-bg
+      |         
+      .container
+        .row.d-flex.align-items-center.justify-content-center
+          .about-content.col-lg-12
+            h1.text-white
+              | Contact Us
+            |                     
+            p.text-white.link-nav
+              a(href="index.html") Home 
+              |  
+              span.lnr.lnr-arrow-right
+              |  
+              a(href="contact.html")  Contact Us
+    // End banner Area
+    // Start contact-page Area
+    section.contact-page-area.section-gap
+      .container
+        .row
+          #map.map-wrap(style="width:100%; height: 445px;")
+          |                 
+          .col-lg-4.d-flex.flex-column.address-wrap
+            .single-contact-address.d-flex.flex-row
+              .icon
+                span.lnr.lnr-home
+              |                         
+              .contact-details
+                h5 Bashundhara R/A, Dhaka
+                |                             
+                p
+                  | Road#5, Home#275, D Block
+            |                     
+            .single-contact-address.d-flex.flex-row
+              .icon
+                span.lnr.lnr-phone-handset
+              |                         
+              .contact-details
+                h5 +880 1713304843
+            |                     
+            .single-contact-address.d-flex.flex-row
+              .icon
+                span.lnr.lnr-envelope
+              |                         
+              .contact-details
+                h5 sajid.hasan12@northsouth.edu
+                |                             
+                p Send us your query anytime!
+          |                 
+          .col-lg-8
+            form#myForm.form-area.contact-form.text-right(action="mail.php", method="post")
+              .row
+                .col-lg-6.form-group
+                  input.common-input.mb-20.form-control(name="name", placeholder="Enter your name", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter your name'", required="", type="text")
+                  |                                 
+                  input.common-input.mb-20.form-control(name="email", placeholder="Enter email address", pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter email address'", required="", type="email")
+                  |                                 
+                  input.common-input.mb-20.form-control(name="subject", placeholder="Enter subject", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter subject'", required="", type="text")
+                |                             
+                .col-lg-6.form-group
+                  textarea.common-textarea.form-control(name="message", placeholder="Enter Messege", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter Messege'", required="")
+                |                             
+                .col-lg-12
+                  .alert-msg(style="text-align: left;")
+                  |                                 
+                  button.genric-btn.primary(style="float: right;") Send Message
+    // End contact-page Area
+    // start footer Area
+    footer.footer-area.section-gap
+      .container
+        .row
+          .col-lg-2.col-md-6.col-sm-6
+            .single-footer-widget
+              h6 Quick links
+              |                         
+              ul
+                li
+                  a(href="#") Service Areas
+                |                             
+                li
+                  a(href="#") How It Works
+                |                             
+                li
+                  a(href="#") Fare Approximation
+                |                             
+                li
+                  a(href="#") Terms of Service
+          |                 
+          .col-lg-2.col-md-6.col-sm-6
+            .single-footer-widget
+              h6 Features
+              |                         
+              ul
+                li
+                  a(href="#") Realtime Sharing
+                |                             
+                li
+                  a(href="#") Safety & Security
+                |                             
+                li
+                  a(href="#") Time Saving
+                |                             
+                li
+                  a(href="#") Economic
+          |                 
+          .col-lg-2.col-md-6.col-sm-6
+            .single-footer-widget
+              h6 Resources
+              |                         
+              ul
+                li
+                  a(href="#") Guides
+                |                             
+                li
+                  a(href="#") Research
+                |                             
+                li
+                  a(href="#") Experts
+                |                             
+                li
+                  a(href="#") FAQ
+          |                 
+          .col-lg-2.col-md-6.col-sm-6.social-widget
+            .single-footer-widget
+              h6 Follow Us
+              |                         
+              p Let us be social
+              |                         
+              .footer-social.d-flex.align-items-center
+                a(href="#")
+                  i.fa.fa-facebook
+                |                             
+                a(href="#")
+                  i.fa.fa-twitter
+                |                             
+                a(href="#")
+                  i.fa.fa-dribbble
+                |                             
+                a(href="#")
+                  i.fa.fa-behance
+          |                 
+          .col-lg-4.col-md-6.col-sm-6
+            .single-footer-widget
+              h6 Newsletter
+              |                         
+              p Stay update with our latest
+              |                         
+              #mc_embed_signup
+                form.form-inline(target="_blank", action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01", method="get")
+                  input.form-control(name="EMAIL", placeholder="Enter Email", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter Email '", required="", type="email")
+                  |                                 
+                  button.click-btn.btn.btn-default
+                    span.lnr.lnr-arrow-right
+                  |                                 
+                  div(style="position: absolute; left: -5000px;")
+                    input(name="b_36c4fd991d266f23781ded980_aefe40901a", tabindex="-1", value="", type="text")
+                  |                                 
+                  .info
+          |                 
+          p.mt-80.mx-auto.footer-text.col-lg-12
+            | Copyright ©
+            script.
+              document.write(new Date().getFullYear());
+            |  All rights reserved | Made with 
+            i.fa.fa-heart-o(aria-hidden="true")
+            |  by 
+            a(href="https://github.com/sajidhasan", target="_blank") Sajid Hasan
+    // End footer Area
+    script(src="js/vendor/jquery-2.2.4.min.js")
+    |     
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js", integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q", crossorigin="anonymous")
+    |     
+    script(src="js/vendor/bootstrap.min.js")
+    |     
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA")
+    |     
+    script(src="js/easing.min.js")
+    |     
+    script(src="js/hoverIntent.js")
+    |     
+    script(src="js/superfish.min.js")
+    |     
+    script(src="js/jquery.ajaxchimp.min.js")
+    |     
+    script(src="js/jquery.magnific-popup.min.js")
+    |     
+    script(src="js/jquery-ui.js")
+    |     
+    script(src="js/jquery.nice-select.min.js")
+    |     
+    script(src="js/mail-script.js")
+    |     
+    script(src="js/main.js")
